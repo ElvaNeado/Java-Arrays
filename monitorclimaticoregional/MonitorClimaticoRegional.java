@@ -101,7 +101,7 @@ public class MonitorClimaticoRegional {
         int indAnomalias = 0;
         double prom = promedioArreglos(temperaturas);
         for (int i = 0; i < temperaturas.length; i++) {
-            if (temperaturas[i] >= (prom * 1.2) || (temperaturas[i] <= (prom * 1.2))) {
+            if (temperaturas[i] >= (prom * 1.2) || temperaturas[i] <= (prom * 0.8)) {
                 anomalias[indAnomalias] = i;
                 indAnomalias++;
 
