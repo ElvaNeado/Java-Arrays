@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Jesús David Tovar Rojas
+ * @author Danny Nicolás Gutiérrez Mejía
  */
 public class MonitorClimaticoRegional {
 
