@@ -55,6 +55,7 @@ public class MonitorClimaticoRegional {
         } else {
             for (int i = 0; i < temperaturas.length; i++) {
                 System.out.println("digite la temperatura numero: " + i);
+                temperaturas[i] = sc.nextDouble();
 
             }
 
