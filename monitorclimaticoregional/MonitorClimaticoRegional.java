@@ -21,7 +21,9 @@ public class MonitorClimaticoRegional {
         neiva = procesarTemperaturas(true, 25, 40);
         campoalegre = procesarTemperaturas(true, 24, 38);
 
-        int resComp = compararSubestaciones(rivera, neiva);
+        int resComp = compararSubestaciones(rivera, neiva);/*Rivera entra como el competidor 1 y Neiva como el 2
+           aqui sabemos con el metodo compararSubestaciones cual es mas caliente
+           si gana el 1 (rivera) sería el mas caliente y si gana el 2 (neiva) sería la mas caliente*/
         System.out.println("compararSubestaciones: " + resComp);
         resComp = compararSubestaciones(neiva, rivera);
         System.out.println("compararSubestaciones: " + resComp);
