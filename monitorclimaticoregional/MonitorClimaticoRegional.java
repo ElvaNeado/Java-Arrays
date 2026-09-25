@@ -34,10 +34,10 @@ public class MonitorClimaticoRegional {
         copia[1] = 15;
         copia[10] = 35;
         int anomalias[] = detectarAnomalias(copia);
-        for (int j = 0; j < anomalias.length; j++) {
+       /* for (int j = 0; j < anomalias.length; j++) {
             if (anomalias[j]!=null)
             System.out.println(anomalias[j]);
-            reporteMensual("rivera", rivera);
+            reporteMensual("rivera", rivera);*/
 
         }
 
